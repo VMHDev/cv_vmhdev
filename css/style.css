@@ -188,7 +188,7 @@ figure {
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
-    text-align: center;
+    text-align: right;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
@@ -196,24 +196,30 @@ figure {
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
+        text-align: right;
         bottom: 0; } }
-    #colorlib-aside .colorlib-footer span {
-      display: block; }
-    #colorlib-aside .colorlib-footer ul {
-      padding: 0;
-      margin: 0; }
-      #colorlib-aside .colorlib-footer ul li {
-        padding: 0;
-        margin: 0;
-        display: inline;
-        list-style: none; }
-        #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
-          padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
-            text-decoration: none;
-            outline: none;
-            color: #2c98f0; }
+
+        #colorlib-aside .colorlib-footer span {
+            display: block; }
+
+          #colorlib-aside .colorlib-footer ul {
+            padding: 0;
+            margin: 0; }
+
+            #colorlib-aside .colorlib-footer ul li {
+              padding: 0;
+              margin: 0;
+              display: inline;
+              list-style: none; }
+
+              #colorlib-aside .colorlib-footer ul li a {
+                color: rgba(255, 255, 255, 0.3);
+                padding: 4px; }
+
+        #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
+          text-decoration: none;
+          outline: none;
+          color: #2c98f0; }
 
 .container-wrap {
   max-width: 1170px;
@@ -293,7 +299,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          color: #2c98f0;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -1427,3 +1433,37 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+/*============================================================================================ */
+/* Personal Profile Area css
+============================================================================================ */
+.personal_text{
+  vertical-align: middle;
+  align-self: center; }
+
+  .personal_text .basic_info{
+    list-style-type: none;
+  }
+  
+    .personal_text .basic_info li {
+      margin-bottom: 15px; }
+
+      .personal_text .basic_info li a {
+        position: relative;
+        padding-left: 0px;
+        font-size: 16px;
+        color: #777777; }
+
+    .personal_text .basic_info li a i {
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      color: #2c98f0;
+      margin-left: -35px; }
+
+      .personal_text .basic_info li:last-child {
+        margin-bottom: 0px; }
+/* End Personal Profile Area css
+============================================================================================ */
