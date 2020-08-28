@@ -808,11 +808,47 @@ body.offcanvas {
     .progress-bar.color-5 span {
       color: #2fa499; }
   .progress-bar.color-6 {
-    background: #4054b2; }
+    background: #f5e642; }
     .progress-bar.color-6:after {
-      background: #4054b2; }
+      background: #f5e642; }
     .progress-bar.color-6 span {
-      color: #4054b2; }
+      color: #f5e642; }
+  .progress-bar.color-7 {
+    background: #f542bc; }
+    .progress-bar.color-7:after {
+      background: #f542bc; }
+    .progress-bar.color-7 span {
+      color: #f542bc; }      
+  .progress-bar.color-8 {
+    background: #42c8f5; }
+    .progress-bar.color-8:after {
+      background: #42c8f5; }
+    .progress-bar.color-8 span {
+      color: #42c8f5; } 
+  .progress-bar.color-9 {
+    background: #42f59e; }
+    .progress-bar.color-9:after {
+      background: #42f59e; }
+    .progress-bar.color-9 span {
+      color: #42f59e; } 
+  .progress-bar.color-10 {
+    background: #f59642; }
+    .progress-bar.color-10:after {
+      background: #f59642; }
+    .progress-bar.color-10 span {
+      color: #f59642; }   
+  .progress-bar.color-11 {
+    background: #6ff542; }
+    .progress-bar.color-11:after {
+      background: #6ff542; }
+    .progress-bar.color-11 span {
+      color: #6ff542; }
+  .progress-bar.color-12 {
+    background: #aa42f5; }
+    .progress-bar.color-12:after {
+      background: #aa42f5; }
+    .progress-bar.color-12 span {
+      color: #aa42f5; }                  
 
 .colorlib-feature {
   text-align: left;
@@ -1433,6 +1469,10 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.animate-box p {
+  font-size: 18px;
+ }
 
 /*============================================================================================ */
 /* Personal Profile Area css
