@@ -1479,7 +1479,9 @@ body.offcanvas {
 ============================================================================================ */
 .personal_text{
   vertical-align: middle;
-  align-self: center; }
+  align-self: center; 
+  padding-left: 12px;
+}
 
   .personal_text .basic_info{
     list-style-type: none;
